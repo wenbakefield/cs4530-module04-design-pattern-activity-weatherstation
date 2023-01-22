@@ -23,4 +23,5 @@ This determines the order in which the data is displayed when notifyAll is calle
 
 The XXXXDisplay classes are already all implementing the same interface, and creating an additional one would be redundant.
 The display method could be added to the existing WeatherDataObserver interface instead.
-
+If we are going to create a new interface, there must be something totally different from the existing one.
+Base on our code, one interface is enough to implement to all “displays”.
